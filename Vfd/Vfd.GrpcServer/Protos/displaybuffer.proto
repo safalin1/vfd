@@ -1,0 +1,49 @@
+syntax = "proto3";
+
+option csharp_namespace = "Vfd.GrpcServer";
+
+package vfd.grpc.v1;
+
+import "google/api/annotations.proto";
+
+service DisplayBuffer {
+  rpc Clear (ClearRequest) returns (ClearResponse) {
+    option (google.api.http) = {
+      delete: "/v1/DisplayBuffer",
+      body: "*"
+    };
+  }
+  
+  rpc SetBuffer (SetBufferRequest) returns (SetBufferResponse) {
+    option (google.api.http) = {
+      post: "/v1/DisplayBuffer",
+      body: "*"
+    };
+  }
+  
+  rpc Blink (BlinkRequest) returns (BlinkResponse) {
+    option (google.api.http) = { 
+      post: "/v1/DisplayBuffer/Blink"
+    };
+  }
+}
+
+message ClearRequest {
+}
+
+message ClearResponse {
+}
+
+message SetBufferRequest {
+  string top_line = 1;
+  string bottom_line = 2;
+}
+
+message SetBufferResponse {
+}
+
+message BlinkRequest {
+}
+
+message BlinkResponse {
+}
