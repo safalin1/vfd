@@ -1,4 +1,4 @@
-﻿namespace Vfd.GrpcServer;
+﻿namespace Vfd.Api;
 
 public static class StringExtensions
 {

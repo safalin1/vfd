@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vfd.GrpcServer", "Vfd.GrpcServer\Vfd.GrpcServer.csproj", "{D640316E-358E-4693-AA49-1F082FC9FCE3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vfd.Api", "Vfd.Api\Vfd.Api.csproj", "{CE6DEEFB-F6FD-4FD2-B146-2D1BA789FFFF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -8,9 +8,9 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{D640316E-358E-4693-AA49-1F082FC9FCE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D640316E-358E-4693-AA49-1F082FC9FCE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D640316E-358E-4693-AA49-1F082FC9FCE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D640316E-358E-4693-AA49-1F082FC9FCE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE6DEEFB-F6FD-4FD2-B146-2D1BA789FFFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE6DEEFB-F6FD-4FD2-B146-2D1BA789FFFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE6DEEFB-F6FD-4FD2-B146-2D1BA789FFFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE6DEEFB-F6FD-4FD2-B146-2D1BA789FFFF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
